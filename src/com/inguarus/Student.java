@@ -18,6 +18,7 @@ public class Student extends User {
             this.value = value;
         }
     }
+
     private Group group;
     private static Random random = new Random();
 
@@ -42,8 +43,12 @@ public class Student extends User {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "group='" + group + '\'' +
-                '}';
+        return "Student: " +
+                "group " +
+                group + " - " +
+                secondName + " " +
+                firstName + ", " +
+                age + " years old" +
+                ' ';
     }
 }

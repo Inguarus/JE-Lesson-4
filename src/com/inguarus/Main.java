@@ -39,13 +39,13 @@ public class Main {
 
         System.out.println("List of 100 non-repeating `Student`:");
         System.out.println(" ");
-        users.forEach(System.out::println);
+        students.forEach(System.out::println);
         Collections.sort(students);
         System.out.println("====================================");
         System.out.println(" ");
         System.out.println("Sorted list `Student`:");
         System.out.println(" ");
-        users.forEach(System.out::println);
+        students.forEach(System.out::println);
 
     }
 }

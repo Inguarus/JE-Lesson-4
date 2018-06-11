@@ -1,6 +1,6 @@
 package com.inguarus;
 
-public enum  SecondName {
+public enum SecondName {
 
     PETROV(0),
     IVANOV(1),

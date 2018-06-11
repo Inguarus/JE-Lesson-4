@@ -2,11 +2,11 @@ package com.inguarus;
 
 import java.util.Random;
 
-public class User implements Comparable<User>{
+public class User implements Comparable<User> {
 
-    private FirstName firstName;
-    private SecondName secondName;
-    private int age;
+    protected FirstName firstName;
+    protected SecondName secondName;
+    protected int age;
 
 
     private static Random random = new Random();
@@ -35,7 +35,7 @@ public class User implements Comparable<User>{
     public String toString() {
         return "User: " +
                 secondName + " " +
-                firstName + " - " +
+                firstName + ", " +
                 age + " years old" +
                 ' ';
     }
